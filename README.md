@@ -59,5 +59,5 @@ As I progress, I’ll work with an evolving ML engineering stack, including:
 
 ---
 
-## 🙌 Credits
+## 📚 References
 - **[Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)** by DataTalks.Club  
