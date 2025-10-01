@@ -1,7 +1,7 @@
 # 🤖 Machine Learning Engineering
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python" alt="Python Badge"/>
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" alt="Python Badge"/>
   <img src="https://img.shields.io/badge/Docker-Enabled-blue?logo=docker" alt="Docker Badge"/>
   <img src="https://img.shields.io/badge/Google%20Cloud-ML%20Engineering-blue?logo=google-cloud" alt="GCP Badge"/>
   <img src="https://img.shields.io/badge/scikit--learn-ML%20Models-green?logo=scikitlearn" alt="Scikit-learn Badge"/>
@@ -26,7 +26,7 @@ Inside you’ll find:
 ## 📚 Learning Path
 
 ### 🔹 DataTalks.Club - Machine Learning Zoomcamp
-- [Module 1: Introduction to Machine Learning](./datatalks/module-1/)
+- [Module 1: Introduction to Machine Learning](./datatalks/module-1/README.md)
 - [Module 2: Machine Learning for Regression](./datatalks/module-2/)
 - [Module 3: Machine Learning for Classification](./datatalks/module-3/)
 - [Module 4: Evaluation Metrics & Validation](./datatalks/module-4/)

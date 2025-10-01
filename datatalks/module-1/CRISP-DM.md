@@ -3,7 +3,7 @@
 In this lesson we explored **CRISP-DM** (Cross-Industry Standard Process for Data Mining), a methodology that provides structure to machine learning projects. Despite being introduced in the 1990s, it remains highly relevant today, as it enforces clarity, iteration, and alignment between business goals and ML solutions.
 
 <p align="center">
-  <img src="../imgs/crisp-dm.png" alt="CRISP-DM Process" width="500"/>
+  <img src="../../imgs/crisp-dm.png" alt="CRISP-DM Process" width="500"/>
 </p>
 <p align="center"><em>Source: <a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining" target="_blank">CRISP-DM</a></em></p>
 
