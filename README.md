@@ -37,9 +37,6 @@ Inside you’ll find:
 - [Module 9: Kubernetes & TensorFlow Serving](./datatalks/module-9/)
 
 
-#### Final Project
-- [Capstone Project](./project/)
-
 ### 🔹 Google Cloud - Machine Learning Engineer Path
 - [Module 1: Introduction to AI and Machine Learning on Google Cloud](./google-cloud/module-1/)
 - [Module 2: Prepare Data for ML APIs on Google Cloud](./google-cloud)
@@ -58,6 +55,9 @@ Inside you’ll find:
 - [Module 15: Build and Deploy Machine Learning Solutions on Vertex AI](./google-cloud)
 - [Module 16: Create Generative AI Apps on Google Cloud](./google-cloud)
 ---
+
+## 🚀 Projects
+- [Financial Analysis](./projects/financial_analysis/investments-portfolio.ipynb)
 
 ## 🛠️ Tools & Technologies
 As I progress, I’ll work with an evolving ML engineering stack, including:
@@ -78,3 +78,5 @@ As I progress, I’ll work with an evolving ML engineering stack, including:
 ## 📚 References
 - **[Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)** by DataTalks.Club  
 - **[Machine Learning Engineer Learning Path](https://www.cloudskillsboost.google/paths/17)** by Google Cloud
+- **[Google Cloud Certified Professional Machine Learning Engineer Book](https://www.amazon.com/Google-Certified-Professional-Machine-Learning/dp/1119944465)** by Mona M and Pratap Ramamurthy
+- **[Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.com.br/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)** by Aurélien Géron
