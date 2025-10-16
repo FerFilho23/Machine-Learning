@@ -2,7 +2,6 @@
 
 This module introduces the **fundamentals of Machine Learning** and sets up the foundation for the rest of my studies. It covers the machine learning workflow, the CRISP-DM methodology, environment setup, and the basics of core Python libraries used for ML (NumPy, Pandas, Linear Algebra).  
 
----
 
 ## 🔹 Contents
 
@@ -16,7 +15,6 @@ This module introduces the **fundamentals of Machine Learning** and sets up the 
 - [Model Selection](./model-selection.md)  
   Explanation of the **model selection process**: Train/Validation/Test splits, avoiding the multiple comparisons problem, and ensuring robust performance evaluation.    
 
----
 
 ### 2. Core Python Libraries
 - [Introduction to NumPy](./intro-numpy.ipynb)  
@@ -28,13 +26,11 @@ This module introduces the **fundamentals of Machine Learning** and sets up the 
 - [Introduction to Pandas](./intro-pandas.ipynb)  
   Exploring and manipulating tabular data using Pandas DataFrames and Series.  
 
----
 
 ### 3. Practice & Exercises
 - [Homework Notebook](./homework/homework.ipynb)  
   Exercises applying Module 1 concepts: CRISP-DM workflow, NumPy operations, Pandas transformations, and model evaluation basics.  
 
----
 
 ## 🎯 Key Learnings
 - ML projects need **process and structure** → CRISP-DM provides a robust framework.  

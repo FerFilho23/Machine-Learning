@@ -27,7 +27,7 @@ Inside you’ll find:
 
 ### 🔹 DataTalks.Club - Machine Learning Zoomcamp
 - [Module 1: Introduction to Machine Learning](./datatalks/module-1/README.md)
-- [Module 2: Machine Learning for Regression](./datatalks/module-2/)
+- [Module 2: Machine Learning for Regression](./datatalks/module-2/README.md)
 - [Module 3: Machine Learning for Classification](./datatalks/module-3/)
 - [Module 4: Evaluation Metrics & Validation](./datatalks/module-4/)
 - [Module 5: Deploying Machine Learning Models](./datatalks/module-5/)
