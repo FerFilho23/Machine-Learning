@@ -57,7 +57,9 @@ Inside you’ll find:
 ---
 
 ## 🚀 Projects
-- [Financial Analysis](./projects/financial_analysis/investments-portfolio.ipynb)
+- [Stock Portfolio Analysis](https://github.com/FerFilho23/Stock-Portfolio-Analysis.git)
+
+- [Credit Card Defaults](https://github.com/FerFilho23/Credit-Card-Defaults.git)
 
 ## 🛠️ Tools & Technologies
 As I progress, I’ll work with an evolving ML engineering stack, including:
