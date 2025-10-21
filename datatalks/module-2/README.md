@@ -1,4 +1,4 @@
-# 📈 Module 2 — Regression Fundamentals
+# 📈 Module 2 — Linear Regression Fundamentals
 
 This module focuses on **Regression**, one of the most fundamental techniques in Machine Learning.  
 It explores the mathematical foundations, model interpretation, evaluation metrics, and practical implementation using a **Car Price Prediction** project.
