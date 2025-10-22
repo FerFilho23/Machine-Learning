@@ -42,7 +42,7 @@ The **backbone of MLOps** on Google Cloud is **Vertex AI Pipelines**, a toolkit 
 An **ML pipeline** is a collection of **components** — each one performing a specific task in the workflow.  
 
 <p align="center">
-  <img src="../../../imgs/mlops-pipeline.png" alt="MLOps Pipeline" width="500"/>
+  <img src="../imgs/mlops-pipeline.png" alt="MLOps Pipeline" width="500"/>
 </p>
 
 

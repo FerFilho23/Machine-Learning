@@ -1,4 +1,4 @@
-# 📘 Class — Data Preparation on Google Cloud  
+# 📘 Data Preparation on Google Cloud  
 
 ## 🎯 Learning Objectives  
 - Understand the **data preparation stage** of the ML workflow in Vertex AI.  
