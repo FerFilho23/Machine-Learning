@@ -71,7 +71,7 @@ Once loss is computed:
 1. **Backpropagation** computes **gradients** of the loss w.r.t. each weight/bias via the chain rule.  
 2. **Gradient Descent** updates parameters **opposite** the gradient to descend the loss surface.
 
-![Gradient Descent](../imgs/gradient_descent.png)
+![Gradient Descent](../imgs/gradient-descent.png)
 
 
 Two key questions:  
