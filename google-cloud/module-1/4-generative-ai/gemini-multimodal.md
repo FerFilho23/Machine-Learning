@@ -1,4 +1,4 @@
-# 📘 Class — Gemini Multimodal on Google Cloud  
+# 📘 Gemini Multimodal on Google Cloud  
 
 ## 🎯 Learning Objectives  
 - Understand what **Gemini Multimodal** is and how it processes and generates multiple content types (text, image, video).  
