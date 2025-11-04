@@ -1,4 +1,5 @@
 import pickle
+from pathlib import Path
 
 import pandas as pd
 import numpy as np
@@ -14,7 +15,9 @@ from sklearn.metrics import roc_auc_score
 # hyperparameters
 C = 1.0
 n_splits = 5
-output_file = f'model_C={C}.bin'
+models_dir = Path(__file__).resolve().parent / 'models'
+models_dir.mkdir(exist_ok=True)
+output_file = models_dir / f'model_C={C}.bin'
 
 
 # data loading and cleaning

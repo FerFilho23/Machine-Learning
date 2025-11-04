@@ -1,6 +1,7 @@
 import pickle
+from pathlib import Path
 
-model_file = 'churn_model_C=1.0.bin'
+model_file = Path(__file__).with_name('model_C=1.0.bin')
 
 with open(model_file, 'rb') as f_in:
     dv, model = pickle.load(f_in)
