@@ -5,14 +5,21 @@ from flask import Flask, request, jsonify
 app = Flask('churn_prediction')
 
 # Load the model
-C = 1.0
-models_dir = Path(__file__).resolve().parent / 'models'
-models_dir.mkdir(exist_ok=True)
-model_file = models_dir / f'model_C={C}.bin'
+base_dir = Path(__file__).resolve().parent.parent
 
-with open(model_file, 'rb') as f_in:
-    dv, model = pickle.load(f_in)
-    print('Loaded model from', model_file)
+
+C = 1.0
+models_dir = base_dir / 'models'
+models_dir.mkdir(exist_ok=True)
+model_file = models_dir / f'churn_model_C={C}.bin'
+
+try:
+    with open(model_file, 'rb') as f_in:
+        dv, model = pickle.load(f_in)
+        print('Loaded model from', model_file)
+except FileNotFoundError:
+    print('Model file not found. Please train the model first.')
+    exit(1)
     
 @app.route('/predict', methods=['POST'])
 def predict():

@@ -11,19 +11,30 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 
+base_dir = Path(__file__).resolve().parent.parent
 
 # hyperparameters
 C = 1.0
 n_splits = 5
-models_dir = Path(__file__).resolve().parent / 'models'
+models_dir = base_dir / 'models'
 models_dir.mkdir(exist_ok=True)
-output_file = models_dir / f'model_C={C}.bin'
+output_file = models_dir / f'churn_model_C={C}.bin'
 
 
 # data loading and cleaning
 print('Loading and cleaning data...')
 url = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-03-churn-prediction/WA_Fn-UseC_-Telco-Customer-Churn.csv'
-df = pd.read_csv(url)
+data_dir = base_dir / 'data'
+csv_path = data_dir / 'Telco-Customer-Churn.csv'
+data_dir.mkdir(exist_ok=True)
+if csv_path.exists():
+    print("Loaded data from local file")
+    df = pd.read_csv(csv_path)
+else:
+    print("Downloaded data from URL")
+    df = pd.read_csv(url)
+    df.to_csv(csv_path, index=False)
+df.head()
 
 df.columns = df.columns.str.lower().str.replace(' ', '_')
 
@@ -39,7 +50,7 @@ df.churn = (df.churn == 'yes').astype(int)
 
 
 # train-test split
-print('Train-test split...')
+print('Train-test split')
 df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=1)
 
 
@@ -88,7 +99,7 @@ def predict(df, dv, model):
 
 
 # cross-validation
-print(f'Cross-validation with C={C}...')
+print(f'Cross-validation with C={C}')
 
 kfold = KFold(n_splits=n_splits, shuffle=True, random_state=1)
 
@@ -97,6 +108,8 @@ scores = []
 fold = 0
 
 for train_idx, val_idx in kfold.split(df_full_train):
+    print(f'Fold {fold} is training...')
+    
     df_train = df_full_train.iloc[train_idx]
     df_val = df_full_train.iloc[val_idx]
 
@@ -118,7 +131,7 @@ print('C=%s %.3f +- %.3f' % (C, np.mean(scores), np.std(scores)))
 
 
 # training the final model
-print('Training the final model')
+print('Training the final model...')
 
 dv, model = train(df_full_train, df_full_train.churn.values, C=1.0)
 y_pred = predict(df_test, dv, model)
