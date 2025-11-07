@@ -57,9 +57,9 @@ Inside you’ll find:
 ---
 
 ## 🚀 Projects
-- [Stock Portfolio Analysis](https://github.com/FerFilho23/Stock-Portfolio-Analysis.git)
+- [Stock Portfolio Analysis](https://github.com/FerFilho23/Stock-Portfolio-Analysis)
 
-- [Credit Card Defaults](https://github.com/FerFilho23/Credit-Card-Defaults.git)
+- [Telecom Churn Prediction](https://github.com/FerFilho23/Telecom-Churn-Prediction)
 
 ## 🛠️ Tools & Technologies
 As I progress, I’ll work with an evolving ML engineering stack, including:
