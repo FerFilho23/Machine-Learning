@@ -39,7 +39,7 @@ Inside you’ll find:
 
 ### 🔹 Google Cloud - Machine Learning Engineer Path
 - [Module 1: Introduction to AI and Machine Learning on Google Cloud](./google-cloud/module-1/)
-- [Module 2: Prepare Data for ML APIs on Google Cloud](./google-cloud)
+- [Module 2: Prepare Data for ML APIs on Google Cloud](./google-cloud/module-2/)
 - [Module 3: Working with Notebooks in Vertex AI](./google-cloud)
 - [Module 4: Create ML Models with BigQuery ML](./google-cloud)
 - [Module 5: Engineer Data for Predictive Modeling with BigQuery ML](./google-cloud)
