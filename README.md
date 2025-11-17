@@ -30,7 +30,7 @@ Inside you’ll find:
 - [Module 2: Machine Learning for Regression](./datatalks/module-2/README.md)
 - [Module 3: Machine Learning for Classification](./datatalks/module-3/README.md)
 - [Module 4: Evaluation Metrics & Validation](./datatalks/module-4/README.md)
-- [Module 5: Deploying Machine Learning Models](./datatalks/module-5/)
+- [Module 5: Deploying Machine Learning Models](./datatalks/module-5/README.md)
 - [Module 6: Decision Trees & Ensemble Learning](./datatalks/module-6/)
 - [Module 7: Neural Networks & Deep Learning](./datatalks/module-7/)
 - [Module 8: Serverless Deep Learning](./datatalks/module-8/)
