@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Docker-Enabled-blue?logo=docker" alt="Docker Badge"/>
   <img src="https://img.shields.io/badge/Google%20Cloud-ML%20Engineering-blue?logo=google-cloud" alt="GCP Badge"/>
   <img src="https://img.shields.io/badge/scikit--learn-ML%20Models-green?logo=scikitlearn" alt="Scikit-learn Badge"/>
-  <img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow" alt="TensorFlow Badge"/>
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-orange?logo=pytorch" alt="PyTorch Badge"/>
   <img src="https://img.shields.io/badge/Status-In%20Progress-success" alt="Status Badge"/>
 </p>
 
