@@ -84,7 +84,7 @@ Here is the standard notation Andrew Ng uses — and it appears throughout all M
 
 #### Model
 
-$$ f_{w,b}(x^{(i)}) = wx^{(i)} + b \tag{1}$$
+$$ f_{w,b}(x^{(i)}) = wx^{(i)} + b $$
 
 This is the formula for univariate linear regression.
 
