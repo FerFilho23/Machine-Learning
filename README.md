@@ -83,7 +83,7 @@ As I progress, I’ll work with an evolving ML engineering stack, including:
 ## 📚 References
 - **[Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)** by DataTalks.Club  
 
-- **[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)** by DeepLearning.AI
+- **[Machine Learning Specialization](https://learn.deeplearning.ai/specializations/machine-learning/overview)** by DeepLearning.AI
 
 - **[Machine Learning Engineer Learning Path](https://www.cloudskillsboost.google/paths/17)** by Google Cloud
 
